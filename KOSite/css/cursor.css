@@ -1,0 +1,25 @@
+
+body {
+  cursor: url('../images/mouse/K%C4%B1rm%C4%B1z%C4%B1%20Bo%C5%9F.cur'), auto;
+}
+.cursor{
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+}
+
+@keyframes cursorAnim{
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(.5);
+    }
+}
+.box {
+    cursor: url('../images/mouse/Mavi%20Bo%C5%9F.cur'),auto;
+    
+}
+.link{
+    cursor: url('../images/mouse/Mavi%20Bo%C5%9F.cur'), auto;
+}
